@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Gilgit-Baltistan Tours</title>
+    <link rel="stylesheet" href="../CSS_File/styles2.css"/>
+    <!-- Font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Sweet alerts -->
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+  <div class="container-fluid">
+    <!-- <h1 class="navbar-brand" id="logo">Gilgit-Baltistan Tours</h1> -->
+    <img src="/Images/logo.png" alt="" class="navbar-brand mx-5" id="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-xl-flex flex-xl-row-reverse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="booking.html">Booking</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Section carousel -->
+<section>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60" alt="Mountains" data-large="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80" height="400vh" class="d-block w-100" />
+      <div class="carousel-caption  d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+        <p><a class="btn" href="booking.html">Book a Trip</a>
+            <a class="btn ghost" href="gallery.html">View Gallery</a>
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" alt="Valley" data-large="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80" height="400vh" class="d-block w-100"  />
+      <div class="carousel-caption d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+        <p><a class="btn" href="booking.html">Book a Trip</a>
+            <a class="btn ghost" href="gallery.html">View Gallery</a>
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60" alt="Lake" data-large="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80" height="400vh" class="d-block w-100"  />
+      <div class="carousel-caption d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+        <p><a class="btn" href="booking.html">Book a Trip</a>
+            <a class="btn ghost" href="gallery.html">View Gallery</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<!-- Features -->
+<div class="container">
+  <section class="features wrap">
+        <h3>Popular Experiences</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Hunza Valley</h4>
+            <p>Stunning views of Rakaposhi and Baltit Fort visits.</p>
+          </article>
+          <article class="card">
+            <h4>Skardu & Deosai</h4>
+            <p>High-altitude plateaus and crystal-clear lakes.</p>
+          </article>
+          <article class="card">
+            <h4>Fairy Meadows</h4>
+            <p>Trekking to one of Pakistan's most famous viewpoints.</p>
+          </article>
+        </div>
+</section>
+</div>
+
+<!-- Footer -->
+<footer class="site-footer mt-5 p-4">
+  <div class="row">
+    <div class="d-flex flex-column col-lg-3 col-md-6 col-sm-4 d-inline">
+        <h2 class="text-white mb-4">GB Travels</h2>
+        <a href="#"><i class="fa-regular fa-envelope"></i><p>nawazshani981@gmail.com</p></a>
+        <a href="#" class="nav-link p-0 fw-normal text-light text-nowrap"><i class="fa-solid fa-phone"></i><p>03488328384</p></a>
+        <a href="#" class="nav-link p-0 fw-normal text-light text-nowrap"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="nav-link p-0 fw-normal text-light text-nowrap"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="nav-link p-0 fw-normal text-light text-nowrap"><i class="fa-brands fa-whatsApp"></i></a>
+        <p class="text-white">&copy; 2025 Gilgit-Baltistan Tours</p>
+      </div>
+      <div class="d-flex flex-column col-lg-3 col-md-6 col-sm-4">
+        <h2 class="text-white mb-4">Profiles</h2>
+        <p><a href="contact.html" class="nav-link p-0 fw-normal text-light text-nowrap">Contact us</a></p>
+        <p><a href="booking.html" class="nav-link p-0 fw-normal text-light text-nowrap">Bookings</a></p>
+        <p><a href="contact.html" class="nav-link p-0 fw-normal text-light text-nowrap">About us</a></p>
+      </div>
+      </div>
+</footer>
+<!-- ********************************************************* -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   <script src="../JavaScript/tours.js"></script>
+  </body>
+</html>
